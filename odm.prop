@@ -4,6 +4,7 @@ bluetooth.device.default_name=OnePlus 9RT
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=4000
 ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_display_power_timer_ms=1000
 
 # Radio
 persist.radio.multisim.config=dsds
