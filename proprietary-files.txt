@@ -928,33 +928,6 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# Iris
-odm/etc/inparm/irissoft/inParm.lst
-odm/etc/inparm/irissoft/inParm1.txt
-odm/etc/inparm/irissoft/inParm10.txt
-odm/etc/inparm/irissoft/inParm11.txt
-odm/etc/inparm/irissoft/inParm12.txt
-odm/etc/inparm/irissoft/inParm13.txt
-odm/etc/inparm/irissoft/inParm13_low.txt
-odm/etc/inparm/irissoft/inParm14.txt
-odm/etc/inparm/irissoft/inParm14_low.txt
-odm/etc/inparm/irissoft/inParm15.txt
-odm/etc/inparm/irissoft/inParm15_low.txt
-odm/etc/inparm/irissoft/inParm16.txt
-odm/etc/inparm/irissoft/inParm17.txt
-odm/etc/inparm/irissoft/inParm18.txt
-odm/etc/inparm/irissoft/inParm2.txt
-odm/etc/inparm/irissoft/inParm3.txt
-odm/etc/inparm/irissoft/inParm4.txt
-odm/etc/inparm/irissoft/inParm5.txt
-odm/etc/inparm/irissoft/inParm6.txt
-odm/etc/inparm/irissoft/inParm7.txt
-odm/etc/inparm/irissoft/inParm8.txt
-odm/etc/inparm/irissoft/inParm9.txt
-odm/etc/inparm/irissoft/mcfCheck.txt
-odm/etc/inparm/irissoft/mcfCheck_low.txt
-odm/etc/irissoft.fw
-
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_20821:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_20821:vendor/etc/libnfc-nci.conf
