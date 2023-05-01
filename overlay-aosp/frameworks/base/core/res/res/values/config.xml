@@ -16,9 +16,6 @@
         <item>com.android.touch.gestures.KeyHandler</item>
     </string-array>
 
-    <!-- Whether the device supports wireless charging or not -->
-    <bool name="config_deviceSupportsWirelessCharging">true</bool>
-
     <!-- Whether device has an alert slider -->
     <bool name="config_hasAlertSlider" translatable="false">true</bool>
 
