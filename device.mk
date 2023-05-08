@@ -38,6 +38,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.face.sense_service.camera_id=1
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.brightness.low.gamma=true
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
