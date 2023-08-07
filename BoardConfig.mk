@@ -10,7 +10,7 @@ include device/oneplus/sm8350-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/martini
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 480
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
