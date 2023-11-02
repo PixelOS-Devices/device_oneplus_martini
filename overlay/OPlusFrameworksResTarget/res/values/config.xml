@@ -376,44 +376,6 @@
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
-    <!-- See DisplayWhiteBalanceController.
-         An array containing a list of display color temperatures, in Kelvin. See
-         config_displayWhiteBalanceAmbientColorTemperatures for additional details.
-         The same restrictions apply to this array. -->
-    <integer-array name="config_displayWhiteBalanceDisplayColorTemperatures">
-        <item>5625</item>
-        <item>5651</item>
-        <item>5680</item>
-        <item>5710</item>
-        <item>5747</item>
-        <item>5898</item>
-        <item>6094</item>
-        <item>6261</item>
-        <item>6435</item>
-        <item>6622</item>
-        <item>6803</item>
-        <item>6957</item>
-        <item>7073</item>
-        <item>7163</item>
-        <item>7281</item>
-        <item>7436</item>
-        <item>7568</item>
-        <item>7686</item>
-        <item>7793</item>
-        <item>7894</item>
-        <item>7991</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-        <item>8000</item>
-    </integer-array>
-
     <!-- Control whether the always on display mode is available. This should only be enabled on
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
          states. -->
