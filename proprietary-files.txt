@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9RT (MT2111_13.1.0.592(EX01)).
+## are from OnePlus 9RT (MT2111_14.0.0.54(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -20,9 +20,6 @@ odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/libQnnHtpSkel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel_v65.so
-odm/lib/rfsa/adsp/libaiboost_skel_v66.so
 odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
@@ -30,8 +27,6 @@ odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_20820.so
 odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20820.so
-odm/lib/rfsa/adsp/libc++.so.1
-odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libhdr_skel.so
@@ -131,6 +126,7 @@ odm/etc/camera/config/imx766
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov02b
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/darksight/darksight_main.bin
@@ -557,6 +553,7 @@ odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/wide.bin
 odm/etc/init/calibrationOutput_uw.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
+odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
 odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
 odm/lib/libc++_shared.so
@@ -582,10 +579,10 @@ odm/lib64/camera/com.qti.tuned.sm8350_ofilm_imx481_20820.bin
 odm/lib64/camera/com.qti.tuned.sm8350_shine_ov02b_20820.bin
 odm/lib64/camera/com.qti.tuned.sm8350_sunny_imx766_20820.bin
 odm/lib64/camera/com.qti.tuned.sm8350_truly_imx471_20820.bin
-odm/lib64/hwconfigurationutiltest
 odm/lib64/android.hardware.graphics.allocator@2.0.so
 odm/lib64/android.hardware.graphics.allocator@3.0.so
 odm/lib64/android.hardware.graphics.allocator@4.0.so
+odm/lib64/hwconfigurationutiltest
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
@@ -607,8 +604,8 @@ odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyPICap.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
-odm/lib64/libImageWarpMask.so
 odm/lib64/libFilterWrapper.so
+odm/lib64/libImageWarpMask.so
 odm/lib64/libOGLManager.so
 odm/lib64/libOPLUS_SCPortrait.so
 odm/lib64/libPerfectColor.so
@@ -647,6 +644,7 @@ odm/lib64/libaps_frame_registration.so
 odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
+odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_distortion_correction.so
 odm/lib64/libarcsoft_dual_sat.so
 odm/lib64/libarcsoft_dual_zoomtranslator.so
@@ -686,6 +684,7 @@ odm/lib64/libcom.oplus.calidatacontainer.so
 odm/lib64/libdualcam_image_optical_zoom.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
+odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libhta.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
@@ -713,10 +712,13 @@ odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libui.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libyuvwrapper.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
