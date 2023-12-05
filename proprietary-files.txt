@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9RT (MT2111_14.0.0.54(EX01)).
+## are from OnePlus 9RT (MT2111_14.0.0.80(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -123,9 +123,9 @@ odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx471
 odm/etc/camera/config/imx481
 odm/etc/camera/config/imx766
+odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
-odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov02b
 odm/etc/camera/config/video_beauty_default_config
