@@ -55,7 +55,7 @@ odm/lib/rfsa/adsp/libworker_pool.so
 odm/lib/lib_lvacfs.so
 odm/lib/libaudioEngineerTest.so
 odm/lib/liblvacfs_wrapper.so
-vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib/hw/audio.primary.lahaina.so|2c36cf88a8ec53ec34dcf4cf2b752284db4c9e7b
 vendor/lib/liba2dpoffload.so
 vendor/lib/libextcamera_client.so
 vendor/lib/libgui1_vendor.so
